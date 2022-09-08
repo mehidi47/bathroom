@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <div class="container-max">
+        <div class="logo">
+          <img loading="lazy" src="images/logo.svg" alt="" />
+          <div class="logo-content">
+            <h3><span class="city">Los Angeles</span> Bathroom Remodeling</h3>
+            <p>Dream bathrooms, Lowest prices</p>
+          </div>
+        </div>
+        <a href="tel:+(855) 501-4469">
+          <button class="cta">
+            <i class="fa-sharp fa-solid fa-phone"></i>
+            <p>(855) 501-4469</p>
+          </button>
+        </a>
+      </div>
+    </header>
+    <section class="hero">
+      <div class="container">
+        <div class="grid-2">
+          <div class="left">
+            <div class="typo">
+              <h3>100% FREE BATHROOM REMODELING QUOTES</h3>
+              <h1>
+                Save on Bath and Shower
+                <span
+                  >Remodels <img loading="lazy" src="images/shape.svg" alt=""
+                /></span>
+                Now
+              </h1>
+              <p>Compare Prices in Under 2 Minutes</p>
+            </div>
+            <div class="image">
+              <img loading="lazy" src="images/bathroom.png" alt="" />
+            </div>
+            <div class="points">
+              <div class="point">
+                <i class="fa-regular fa-circle-check"></i>
+                <p>Completely FREE Service, No Obligation</p>
+              </div>
+              <div class="point">
+                <i class="fa-regular fa-circle-check"></i>
+                <p>You Simply Pick The Best Deal!</p>
+              </div>
+              <div class="point">
+                <i class="fa-regular fa-circle-check"></i>
+                <p>Bathroom Companies Compete, You SAVE!</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="form-steps">
+            <div class="step-count">
+              <p>Step <span>2</span> of 3</p>
+              <p>33%</p>
+            </div>
+            <div class="bar">
+              <div class="complete"></div>
+            </div>
+            <!-- step 1 -->
+            <form action="#" class="form-ac">
+              <label for="service">What type of service do you need? </label>
+              <div class="service" id="service">
+                <input
+                  type="radio"
+                  value="New Tub Installations"
+                  name="i"
+                  id="i1"
+                />
+                <label for="i1">
+                  <img loading="lazy" src="images/1.svg" alt="" />
+                </label>
+
+                <input
+                  type="radio"
+                  value="Bath/Shower Updates"
+                  name="i"
+                  id="i2"
+                />
+                <label for="i2">
+                  <img loading="lazy" src="images/3.svg" alt="" />
+                </label>
+
+                <input
+                  type="radio"
+                  value="Bath Linear/Shower Enclosure"
+                  name="i"
+                  id="i3"
+                />
+                <label for="i3">
+                  <img loading="lazy" src="images/4.svg" alt="" />
+                </label>
+
+                <input type="radio" value="Walk In Shower" name="i" id="i4" />
+                <label for="i4">
+                  <img loading="lazy" src="images/6.svg" alt="" />
+                </label>
+
+                <input
+                  type="radio"
+                  value="Full Bathroom Remodel"
+                  name="i"
+                  id="i5"
+                />
+                <label for="i5">
+                  <img loading="lazy" src="images/2.svg" alt="" />
+                </label>
+              </div>
+              <div class="sr">
+                <p>New Tub Installations</p>
+                <p>Bath/Shower Updates</p>
+                <p>Bath Linear/Shower Enclosure</p>
+                <p>Walk In Shower</p>
+                <p>Full Bathroom Remodel</p>
+              </div>
+              <div class="fild">
+                <label for="zip">Where will this project take place?</label>
+                <input
+                  type="text"
+                  name="zip"
+                  id="zip"
+                  placeholder="Zip code*"
+                />
+              </div>
+              <div class="buttons">
+                <button>NEXT Step</button>
+              </div>
+            </form>
+            <!-- step 1 end -->
+
+            <!-- step 2 -->
+            <form action="#">
+              <div class="fild">
+                <label for="addr">Street Address</label>
+                <input
+                  type="text"
+                  name="addr"
+                  id="addr"
+                  placeholder="Address*"
+                />
+              </div>
+              <div class="fild">
+                <label for="type">Property Type</label>
+                <select name="property" id="type">
+                  <option value="Residential">Residential</option>
+                  <option value="Commercial">Commercial</option>
+                  <option value="Multi-unit">Multi-Unit</option>
+                </select>
+              </div>
+              <div class="fild">
+                <label for="time">What's Your Timeframe?</label>
+                <select name="time" id="time">
+                  <option value="Immediate">Immediate</option>
+                  <option value="1 Week">1 Week</option>
+                  <option value="1-2 Week">1-2 Week</option>
+                  <option value="Over 2 Weeks">Over 2 Weeks</option>
+                </select>
+              </div>
+              <div class="fild">
+                <label for="owner">Are You the Owner?</label>
+                <select name="owner" id="owner">
+                  <option value="Yes">Yes</option>
+                  <option value="No">No</option>
+                </select>
+              </div>
+              <div class="buttons">
+                <button class="empty">previous</button>
+                <button>NEXT Step</button>
+              </div>
+            </form>
+            <!-- step 2 end -->
+
+            <!-- step 3 -->
+            <form action="#">
+              <div class="fild">
+                <label for="fname">First Name</label>
+                <input
+                  type="text"
+                  name="fname"
+                  id="fname"
+                  placeholder="First Name*"
+                />
+              </div>
+              <div class="fild">
+                <label for="fname">Last Name</label>
+                <input
+                  type="text"
+                  name="lname"
+                  id="lname"
+                  placeholder="Last Name*"
+                />
+              </div>
+              <div class="fild">
+                <label for="email">Email</label>
+                <input
+                  type="text"
+                  name="email"
+                  id="email"
+                  placeholder="Email*"
+                />
+              </div>
+              <div class="fild">
+                <label for="phone">Phone</label>
+                <input
+                  type="text"
+                  name="phone"
+                  id="phone"
+                  placeholder="Phone*"
+                />
+              </div>
+              <p class="dis">
+                By submitting this form, you are agreeing to be contacted
+                regarding your service request by means of telephone, email, or
+                text including using pre-recorded or auto dialed phone calls or
+                text messages to the phone number you have provided, including
+                your wireless number, if provided. Consent to contact doesn’t
+                require you to purchase service
+              </p>
+              <div class="buttons">
+                <button class="empty">previous</button>
+                <button>submit</button>
+              </div>
+            </form>
+            <!-- step 3 end -->
+
+            <!-- Thank you -->
+            <form action="#">
+              <div class="thank">
+                <h3>Thanks for contacting us!</h3>
+                <p>We will get in touch with you shortly.</p>
+              </div>
+              <div class="buttons">
+                <button>submit</button>
+              </div>
+            </form>
+            <!-- Thank you end -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="container">
+        <p>
+          THIS SITE IS A FREE SERVICE TO ASSIST HOMEOWNERS IN CONNECTING WITH
+          LOCAL SERVICE CONTRACTORS. ALL CONTRACTORS ARE INDEPENDENT AND THIS
+          SITE DOES NOT WARRANT OR GUARANTEE ANY WORK PERFORMED. IT IS THE
+          RESPONSIBILITY OF THE HOMEOWNER TO VERIFY THAT THE HIRED CONTRACTOR
+          FURNISHES THE NECESSARY LICENSE AND INSURANCE REQUIRED FOR THE WORK
+          BEING PERFORMED. ALL PERSONS DEPICTED IN A PHOTO OR VIDEO ARE ACTORS
+          OR MODELS AND NOT CONTRACTORS LISTED ON THIS SITE.
+        </p>
+        <div class="links">
+          <a href="#" target="_blank">PRIVACY POLICY</a>
+          <a href="#" target="_blank">CONTACT</a>
+        </div>
+        <small>&copy; 2022 YOURDREAMBATHROOM.NET</small>
+      </div>
+    </footer>
+    <script src="app.js"></script>
+  </body>
+</html>
