@@ -1,20 +1,8 @@
-var swiper = new Swiper(".section-wraper", {
-  direction: "vertical",
-  slidesPerView: 1,
-  spaceBetween: 30,
-  mousewheel: true,
-  pagination: {
-    el: ".swiper-pagination",
-    type: "fraction",
-  },
-  scrollbar: {
-    el: ".swiper-scrollbar",
-  },
-});
-
+let nav = document.querySelector("nav");
 function menu() {
   let menu = document.querySelector(".menu");
   menu.classList.toggle("active");
+  nav.classList.toggle("active");
 }
 let web = [
   {
@@ -27,6 +15,24 @@ let web = [
     title: "Freedup.co",
     thumbnail: "images/w2.png",
     live: "https://freedup.co.uk",
+    cetagory: "website",
+  },
+  {
+    title: "SoaRising",
+    thumbnail: "images/w3.png",
+    live: "https://www.soarising.com",
+    cetagory: "website",
+  },
+  {
+    title: "SoaRising",
+    thumbnail: "images/w3.png",
+    live: "https://www.soarising.com",
+    cetagory: "website",
+  },
+  {
+    title: "SoaRising",
+    thumbnail: "images/w3.png",
+    live: "https://www.soarising.com",
     cetagory: "website",
   },
   {
@@ -56,9 +62,45 @@ let ui = [
     live: "#",
     cetagory: "ui/ux",
   },
+  {
+    title: "No content",
+    thumbnail: "images/fplaceholder.png",
+    live: "#",
+    cetagory: "ui/ux",
+  },
+  {
+    title: "No content",
+    thumbnail: "images/fplaceholder.png",
+    live: "#",
+    cetagory: "ui/ux",
+  },
+  {
+    title: "No content",
+    thumbnail: "images/fplaceholder.png",
+    live: "#",
+    cetagory: "ui/ux",
+  },
 ];
 
 let app = [
+  {
+    title: "No content",
+    thumbnail: "images/aplaceholder.png",
+    live: "#",
+    cetagory: "app",
+  },
+  {
+    title: "No content",
+    thumbnail: "images/aplaceholder.png",
+    live: "#",
+    cetagory: "app",
+  },
+  {
+    title: "No content",
+    thumbnail: "images/aplaceholder.png",
+    live: "#",
+    cetagory: "app",
+  },
   {
     title: "No content",
     thumbnail: "images/aplaceholder.png",
@@ -141,3 +183,14 @@ function show(item, ce) {
 show(cetalog, web);
 show(cetalog1, ui);
 show(cetalog2, app);
+
+// window.addEventListener("scroll", function () {
+//   const header = document.querySelector("header");
+//   header.classList.toggle("sticky", window.scrollY > 0);
+// });
+// function toogleMenu() {
+//   const manuToggle = document.querySelector(".manuToggle");
+//   const navigation = document.querySelector(".navigation");
+//   manuToggle.classList.toggle("active");
+//   navigation.classList.toggle("active");
+// }
