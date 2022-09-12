@@ -32,6 +32,7 @@ a {
 }
 body {
   background: url(images/background.png);
+  background-color: #1a1e28;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
